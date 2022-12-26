@@ -1,0 +1,7 @@
+<div>
+    <h2>Counter : {{count}}</h2>
+    <h4><button (click)="AddOne()">+1</button><button (click)="SubOne()">-1</button><button (click)="Reset()">reset</button></h4>
+    <button (click)="toggleFav()" >{{this.showtext ? "HIDE":"SHOW"}}</button>
+    <h1 *ngIf="this.showtext">this is some text</h1>
+</div>
+<hr/>

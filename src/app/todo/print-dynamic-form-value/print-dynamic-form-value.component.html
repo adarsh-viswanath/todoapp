@@ -1,0 +1,20 @@
+<div>
+    
+        Company name : <input [(ngModel)]="input1value"/><br/>
+        Company code : <input [(ngModel)]="input2value"/><br/>
+        price: <input [(ngModel)]="pricevalue"/><br/>
+        
+        Stock market : <br/>
+        <input [(ngModel)]="market" type="radio" value="NASDAQ"/>
+        <label for="NASDAQ">NASDAQ</label><br/>
+        <input [(ngModel)]="market" type="radio" value="SENSEX"/>
+        <label for="SENSEX">SENSEX</label><br/>
+        Confirm? <input type="checkbox" [(ngModel)]="check"/>
+
+        
+        <h4>Company name : {{input1value}} Company code : {{input2value}} price: {{pricevalue}} 
+            market: {{market}} Check: {{check}}
+        </h4>
+        <hr/>
+
+</div>
